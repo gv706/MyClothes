@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="40dp"
+    android:paddingEnd="40dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="50dp"
+    android:background="#ffffff"
+    android:paddingBottom="50dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/update_your_name"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="#182367"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/editback"
+        android:id="@+id/name"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_the_name"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/editback"
+        android:id="@+id/mobileno"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:hint="@string/enter_the_mobile_number"
+        android:layout_marginTop="20dp"
+        android:inputType="phone"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:id="@+id/cancel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+android:textAllCaps="false"
+            android:background="@drawable/buttonback"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/ok"
+            android:id="@+id/ok"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonback"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="10dp"
+            android:textAllCaps="false"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

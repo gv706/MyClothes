@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/card"
+        android:background="@android:color/transparent"
+        app:cardCornerRadius="5dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layoutback"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+
+                    android:textSize="25sp"
+
+                    android:background="@drawable/textback"
+                    android:gravity="center_horizontal"
+                    android:text="@string/sign_up"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/white"
+                    />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:hintEnabled="true"
+                    android:layout_marginTop="10dp"
+                    app:errorEnabled="true"
+                    app:hintAnimationEnabled="true"
+                    app:hintTextColor="#182367"
+
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="Enter Your Name"
+                        android:drawableEnd="@drawable/profile"
+                        android:layout_marginTop="20dp"
+
+
+                        android:inputType="textEmailAddress"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    >
+
+                    <RadioGroup
+                        android:id="@+id/rg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <RadioButton
+                            android:id="@+id/male"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Male"
+                            android:textColor="#182367"
+                            android:textSize="15sp" />
+
+                        <RadioButton
+                            android:id="@+id/female"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginStart="20dp"
+                            android:text="Female"
+                            android:textColor="#182367"
+                            android:textSize="15sp" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:hintEnabled="true"
+                    android:layout_marginTop="10dp"
+
+                    app:hintAnimationEnabled="true"
+                    app:hintTextColor="#182367"
+
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="Enter Your Email"
+                        android:drawableEnd="@drawable/ic_email_black_24dp"
+                        android:layout_marginTop="20dp"
+
+
+                        android:inputType="textPersonName"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:hintEnabled="true"
+                    app:errorEnabled="true"
+                    app:counterEnabled="true"
+                    app:passwordToggleEnabled="true"
+                    android:layout_marginTop="10dp"
+
+                    app:hintAnimationEnabled="true"
+                    app:hintTextColor="#182367"
+
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="Enter Your Password"
+
+                        android:drawableEnd="@drawable/lock"
+
+
+                        android:layout_marginTop="20dp"
+
+
+                        android:inputType="textPassword"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/cpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:hintEnabled="true"
+                    app:passwordToggleEnabled="true"
+                    android:layout_marginTop="10dp"
+                    app:errorEnabled="true"
+                    app:counterEnabled="true"
+
+                    app:hintAnimationEnabled="true"
+                    app:hintTextColor="#182367"
+
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="Confirm Your Password"
+
+
+
+                        android:drawableEnd="@drawable/lock"
+                        android:layout_marginTop="20dp"
+
+
+                        android:inputType="textPersonName"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:hintEnabled="true"
+                    android:layout_marginTop="10dp"
+
+                    app:hintAnimationEnabled="true"
+                    app:hintTextColor="#182367"
+                    app:errorEnabled="true"
+                    app:counterEnabled="true"
+
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="Enter Your Phone number"
+                        android:drawableEnd="@drawable/phone"
+                        android:layout_marginTop="20dp"
+
+
+                        android:inputType="phone"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:layout_width="180dp"
+                    android:cursorVisible="false"
+                    android:background="@drawable/buttonback"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="50dp"
+                    android:id="@+id/register"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:text="Register"
+                    android:textColor="@color/white"
+                    />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>

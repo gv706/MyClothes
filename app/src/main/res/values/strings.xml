@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Clothes</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password_click_here">Forgot Password ? Click here</string>
+    <string name="new_user_click_here">New User ? Click here</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="send_email">Send Email</string>
+    <string name="my_clothes">My Clothes</string>
+
+    <string name="previous_clothes">Previous Clothes</string>
+    <string name="date">Date:-</string>
+    <string name="shirts">Shirts:-</string>
+    <string name="pants">Pants:-</string>
+    <string name="t_shirts">T-Shirts:-</string>
+    <string name="shorts">Shorts:-</string>
+    <string name="towels">Towels:-</string>
+    <string name="blankets">Blankets:-</string>
+    <string name="pillow_covers">Pillow Covers:-</string>
+    <string name="pyjamas">Pyjamas:-</string>
+    <string name="boxers">Boxers:-</string>
+    <string name="total">Total:-</string>
+    <string name="view_image">View Image</string>
+    <string name="tracks">Tracks:-</string>
+    <string name="add_clothes">Add Clothes</string>
+    <string name="update_your_name">Update your name</string>
+    <string name="enter_the_name">Enter the name</string>
+    <string name="enter_the_mobile_number">Enter the mobile number</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Update</string>
+</resources>

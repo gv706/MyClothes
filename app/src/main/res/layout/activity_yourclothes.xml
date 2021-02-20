@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".yourclothes"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/card"
+        android:background="@android:color/transparent"
+        app:cardCornerRadius="5dp"
+
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layoutback"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/textback"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/add_clothes"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/shirts"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/editback"
+                        android:ems="10"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:hint="   Shirts"
+                        android:inputType="number"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/pants"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+
+
+                        android:background="@drawable/editback"
+                        android:ems="10"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:hint="   Pants"
+                        android:inputType="number" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/towels"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/editback"
+                        android:ems="10"
+                        android:hint="   Towels"
+                        android:inputType="number"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/pillowcovers"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:background="@drawable/editback"
+                        android:ems="10"
+                        android:hint=" Pillow Covers"
+                        android:inputType="number" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/blankets"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/editback"
+                        android:ems="10"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:hint="   Blankets"
+                        android:inputType="number"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/tracks"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+
+                        android:background="@drawable/editback"
+                        android:ems="10"
+                        android:hint="   Tracks"
+                        android:inputType="number"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/shorts"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:background="@drawable/editback"
+                        android:ems="10"
+                        android:hint="   Shorts"
+                        android:inputType="number"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/tshirts"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:background="@drawable/editback"
+                        android:ems="10"
+                        android:hint="   T-shirts"
+                        android:inputType="number"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/pyjamas"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/editback"
+                        android:ems="10"
+                        android:hint="   Pyjamas"
+                        android:inputType="number"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/boxers"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+
+                        android:background="@drawable/editback"
+                        android:ems="10"
+                        android:hint="   Boxers"
+
+                        android:inputType="number"
+
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/textflag"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="File not chosen"
+                        android:textColor="#182367"
+                        android:textSize="20sp"
+
+                        />
+
+                    <ImageButton
+                        android:id="@+id/choosefile"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginEnd="50dp"
+                        android:layout_marginRight="10dp"
+
+                        android:background="@drawable/chooseimage"
+                        android:scaleType="centerCrop"
+
+                        android:textColor="#182367" />
+                </LinearLayout>
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/chooseImage"
+                    android:layout_marginTop="40dp"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+
+                    />
+
+
+
+
+
+                <Button
+                    android:id="@+id/sub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="50dp"
+
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/buttonback"
+                    android:text="Submit"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
